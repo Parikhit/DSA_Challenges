@@ -14,8 +14,6 @@ function countOccurrences(str, char) {
 
 // Way 2
 
-const countOccurrences = (str, char) => {
-    return str.split(char).length - 1;
-};
+const countOccurrences = (str, char) => str.split(char).length - 1;
 
 module.exports = countOccurrences;
